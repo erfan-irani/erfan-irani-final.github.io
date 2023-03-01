@@ -23,7 +23,7 @@
 
     .navAcc {
         width: 100%;
-        height: 48.4px;
+        height: 300px;
         background-color: #242424;
         position: fixed;
         top: 130px;
@@ -44,8 +44,51 @@
 
     }
 
-    ul {
+    #navul{
         display: none;
+    }
+    ul{
+        margin-top: 20px;
+    }
+    li{
+        width: 100%;
+        height: 40px;
+        margin-left: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(180, 180, 180);
+        font-family: 'Raleway', sans-serif;
+        transition: all 300ms ease 0s;
+    }
+    a:hover{
+        color: white;
+    }
+    ol{
+       
+        width: 250px;
+        height: 250px;
+        background-color: rgb(59, 57, 57);
+        list-style-type: none;
+
+        position: absolute;
+
+
+
+    }
+
+    .Asub {
+        font-size: 15px;
+        height: 30px;
+        line-height: 50px;
+    }
+
+    .submenuB {
+        position: relative;
+    }
+
+    .submenuB:hover ol {
+        display: block;
     }
 
 }
@@ -88,6 +131,7 @@
         color: white;
 
     }
+    
 
     ul {
         display: none;
@@ -139,6 +183,33 @@
 
     li {
         line-height: 40PX;
+    }
+
+    ol {
+        display: none;
+        width: 100%;
+        height: 310px;
+        background-color: #242424;
+        list-style-type: none;
+        position: absolute;
+
+
+
+    }
+
+    .Asub {
+        font-size: 10px;
+        height: 50px;
+        line-height: 50px;
+
+    }
+
+    .submenuB {
+        position: relative;
+    }
+
+    .submenuB:hover ol {
+        display: block;
     }
 
     a {
@@ -205,6 +276,33 @@
         line-height: 40PX;
     }
 
+    ol {
+        display: none;
+        width: 100%;
+        height: 310px;
+        background-color: #242424;
+        list-style-type: none;
+
+        position: absolute;
+
+
+
+    }
+
+    .Asub {
+        font-size: 10px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .submenuB {
+        position: relative;
+    }
+
+    .submenuB:hover ol {
+        display: block;
+    }
+
     a {
         padding: 13px 17px;
 
@@ -256,6 +354,33 @@
         line-height: 120px;
     }
 
+    ol {
+        display: none;
+        width: 100%;
+        height: 370px;
+        background-color: #242424;
+        list-style-type: none;
+        margin-top: -20px;
+        position: absolute;
+
+
+
+    }
+
+    .Asub {
+        font-size: 10px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .submenuB {
+        position: relative;
+    }
+
+    .submenuB:hover ol {
+        display: block;
+    }
+
     #navul {
         margin-left: 40%;
     }
@@ -280,5 +405,9 @@
 
     a:hover {
         color: white;
+    }
+
+    .navAcc {
+        display: none;
     }
 }
