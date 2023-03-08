@@ -1,12 +1,7 @@
-const icon = document.querySelector(".headerIcon");
-const nav = document.querySelector(".navulAcc");
-const submenu = document.querySelector("ol");
-const item = document.querySelector(".submenuB");
+const icon=document.querySelector(".icon");
+const nav=document.querySelector("ul");
 
-icon.addEventListener("click", function () {
-    nav.classList.toggle("navAcc-height");
-});
+icon.addEventListener("click",function(){
+    nav.classList.toggle("nav-height")
 
-item.addEventListener("click", function () {
-    submenu.classList.toggle("sub-height");
-});
+})
