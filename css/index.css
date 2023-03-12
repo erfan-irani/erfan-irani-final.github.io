@@ -67,6 +67,7 @@
     ol {
         width: 100%;
         height: 300px;
+        padding-left: 0;
         background-color: rgb(59, 57, 57);
         list-style-type: none;
         position: relative;
@@ -117,6 +118,7 @@
     }
 
     .nav-height {
+        padding-left: 0;
         height: 600px;
         overflow: auto;
 
@@ -139,6 +141,46 @@
         color: #8b8f92;
 
 
+    }
+
+    .paragraph {
+        height: 380px;
+    }
+    .imgrice{
+        width: 100%;
+    }
+    .remove-padding{
+        padding-left:0;
+        padding-right:0;
+    }
+    .price{
+        width: 100%;
+        height: 80px;
+        background-color: #ed1c24;
+    }
+    .rice{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+        line-height: 80px;
+        margin-left: 30px;
+
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        background-color: white;
+        border: 1px solid gray;
+        margin-left: 10px;
+        margin-top: 40px;
+        font-family: sans-serif;
+        border-radius: 8px;
+        color: gray;
+    }
+    button:hover{
+        background-color: #ed1c24;
+        color: white;
     }
 }
 
@@ -172,6 +214,7 @@
         background-color: #252525;
         overflow: hidden;
         transition: all 500ms ease 0s;
+        position: absolute;
     }
 
     ul>li {
@@ -202,6 +245,7 @@
     ol {
         width: 100%;
         height: 300px;
+        padding-left: 0;
         background-color: rgb(59, 57, 57);
         list-style-type: none;
         position: relative;
@@ -253,6 +297,7 @@
 
     .nav-height {
         height: 600px;
+        padding-left: 0;
         overflow: auto;
 
     }
@@ -318,6 +363,7 @@
         height: 200px;
         background-color: rgb(59, 57, 57);
         list-style-type: none;
+        padding-left: 0;
         position: absolute;
         display: none;
 
@@ -412,6 +458,7 @@
         height: 200px;
         background-color: rgb(59, 57, 57);
         list-style-type: none;
+        padding-left: 0;
         position: absolute;
         display: none;
 
@@ -506,6 +553,7 @@
     ol {
         width: 100%;
         height: 200px;
+        padding-left: 0;
         background-color: rgb(59, 57, 57);
         list-style-type: none;
         position: absolute;
@@ -601,6 +649,7 @@
     ol {
         width: 100%;
         height: 200px;
+        padding-left: 0;
         background-color: rgb(59, 57, 57);
         list-style-type: none;
         position: absolute;
