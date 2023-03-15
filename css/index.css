@@ -223,9 +223,44 @@
     .topfooter {
         width: 100%;
         height: 100px;
+        direction: rtl;
         background-color: #eeefef;
     }
 
+    .topfooter>i {
+        font-size: 40px;
+        padding: 5px;
+    }
+.instagram{
+    transition:all 200ms ease 0s ;
+}
+.instagram:hover{
+    color: purple;
+}
+.telegram{
+    transition:all 200ms ease 0s ;
+}
+.telegram:hover{
+    color: #01959a;
+}
+.linkedin{
+    transition:all 200ms ease 0s ;
+}
+.linkedin:hover{
+    color: blue;
+}
+.facebook{
+    transition:all 200ms ease 0s ;
+}
+.facebook:hover{
+    color: brown;
+}
+.whatsapp{
+    transition:all 200ms ease 0s ;
+}
+.whatsapp:hover{
+    color: green
+}
     .redbar {
         width: 100%;
         height: 20px;
@@ -234,7 +269,7 @@
 
     .footer {
         width: 100%;
-        height: 480px;
+        height: 600px;
         background-color: #252525;
 
     }
@@ -246,38 +281,88 @@
         padding: 0;
         margin-left: 20px;
         background-color: #252525;
-        display: none;
+        display: flex;
         color: #a1a3a5;
     }
 
     .lifoot {
         height: 30px;
     }
-    .lifoot>a{
+
+    .lifoot>a {
         line-height: 30px;
         height: 30px;
         text-align: center;
     }
-    .footer>img{
-        width: 138px;
-        height: 100px;
-       margin-left: 20px;
-       margin-top: 30px;
-        
+
+
+    .imgs {
+        width: 100%;
+        height: 130px;
+
     }
-    .pborder{
-        width: 138px;
-        margin-bottom: 0;
+
+    .img1 {
+        margin-top: 20px;
         margin-left: 20px;
+
+    }
+
+    .img2 {
+        margin-left: 25px;
+        margin-top: 20px;
+
+    }
+
+    .ulfot2 {
+        list-style-type: none;
+        width: 140px;
+        height: 200px;
+        padding: 0;
+        margin-left: 200px;
+
+        display: flex;
+        color: #a1a3a5;
+    }
+
+    .lifoot2 {
+        height: 30px;
+    }
+
+    .lifoot2>a {
+        line-height: 30px;
+        height: 30px;
+        text-align: center;
+    }
+
+    .pborders {
+        width: 100%;
+        height: 30px;
+
+    }
+
+    .pborder {
+        width: 138px;
+        display: inline-block;
         color: white;
+        margin-left: 20px;
         font-family: sans-serif;
         text-align: center;
-        border-top:1px solid #969899;
-        border-bottom:2px solid #969899 ;
+        border-top: 1px solid #969899;
+        border-bottom: 2px solid #969899;
     }
-    .img2{
-        
+
+    .pborder2 {
+        width: 138px;
+        display: inline-block;
+        color: white;
+        margin-left: 35px;
+        font-family: sans-serif;
+        text-align: center;
+        border-top: 1px solid #969899;
+        border-bottom: 2px solid #969899;
     }
+
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
