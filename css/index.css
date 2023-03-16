@@ -288,7 +288,7 @@
         width: 140px;
         height: 200px;
         padding: 0;
-        margin-left: 50px;
+        margin-left: 20px;
         background-color: #252525;
         position: relative;
         display: inline-block;
@@ -307,7 +307,6 @@
 
 
     .imgs {
-        margin-left: 30px;
         width: 100%;
         height: 130px;
 
@@ -323,6 +322,14 @@
         margin-left: 25px;
         margin-top: 20px;
 
+    }
+
+    .img3 {
+        display: none;
+    }
+
+    .img4 {
+        display: none;
     }
 
     .ulfot2 {
@@ -351,7 +358,6 @@
     }
 
     .pborders {
-        margin-left: 30px;
         width: 100%;
         height: 30px;
 
@@ -379,9 +385,12 @@
         border-bottom: 2px solid #969899;
     }
 
-    .img4 {
+    .pborder3 {
         display: none;
+    }
 
+    .pborder4 {
+        display: none;
     }
 }
 
@@ -731,8 +740,7 @@
         margin-top: 20px;
 
     }
-
-    .img4 {
+    .img4{
         display: none;
     }
 
@@ -777,7 +785,6 @@
         text-align: center;
     }
 
-
     .pborders {
         width: 100%;
         height: 30px;
@@ -816,8 +823,7 @@
         border-top: 1px solid #969899;
         border-bottom: 2px solid #969899;
     }
-
-    .pborder4 {
+    .pborder4{
         display: none;
     }
 }
@@ -1149,7 +1155,7 @@
         width: 140px;
         height: 200px;
         padding: 0;
-        margin-left: 80px;
+        margin-left: 20px;
         background-color: #252525;
         position: relative;
         display: inline-block;
@@ -1168,7 +1174,6 @@
 
 
     .imgs {
-        margin-left: 60px;
         width: 100%;
         height: 130px;
 
@@ -1261,7 +1266,6 @@
     }
 
     .pborders {
-        margin-left: 70px;
         width: 100%;
         height: 30px;
 
@@ -1639,7 +1643,7 @@
         width: 140px;
         height: 200px;
         padding: 0;
-        margin-left: 155px;
+        margin-left: 20px;
         background-color: #252525;
         position: relative;
         display: inline-block;
@@ -1665,7 +1669,7 @@
 
     .img1 {
         margin-top: 20px;
-        margin-left: 150px;
+        margin-left: 20px;
 
     }
 
@@ -1750,7 +1754,6 @@
     }
 
     .pborders {
-        margin-left: 130px;
         width: 100%;
         height: 30px;
 
